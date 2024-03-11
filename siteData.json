@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "puri-virakarin": "Puri Virakarin",
+        "rungrawin-chowiwattana": "Rungrawin Chowiwattana",
+        "sia-zhong-qing": "Sia Zhong Qing",
+        "shaun-lee-xuan-wei": "Shaun Lee Xuan Wei",
+        "tan-jie-ling": "Tan Jie Ling"
       },
       "headingKeywords": {}
     },
@@ -140,6 +140,46 @@
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/nuyer.md",
+      "title": "nuyer's Project Portfolio Page",
+      "headings": {
+        "project-netconnect": "Project: NetConnect"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/purivirakarin.md",
+      "title": "purivirakarin's Project Portfolio Page",
+      "headings": {
+        "project-netconnect": "Project: NetConnect"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/shaunlxw.md",
+      "title": "shaunlxw's Project Portfolio Page",
+      "headings": {
+        "project-netconnect": "Project: NetConnect"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/starsia.md",
+      "title": "starsia's Project Portfolio Page",
+      "headings": {
+        "project-netconnect": "Project: NetConnect"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/tanjieling0.md",
+      "title": "tanjieling0's Project Portfolio Page",
+      "headings": {
+        "project-netconnect": "Project: NetConnect"
       },
       "headingKeywords": {}
     },
