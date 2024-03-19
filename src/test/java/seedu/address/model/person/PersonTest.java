@@ -13,8 +13,12 @@ import static seedu.address.testutil.Assert.assertThrows;
 import static seedu.address.testutil.TypicalPersons.ALICE;
 import static seedu.address.testutil.TypicalPersons.BOB;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import org.junit.jupiter.api.Test;
 
+import seedu.address.model.tag.Tag;
 import seedu.address.testutil.PersonBuilder;
 
 public class PersonTest {
@@ -97,5 +101,43 @@ public class PersonTest {
                 + ", email=" + ALICE.getEmail() + ", address=" + ALICE.getAddress() + ", remark=" + ALICE.getRemark()
                 + ", tags=" + ALICE.getTags() + "}";
         assertEquals(expected, ALICE.toString());
+    }
+
+    @Test
+    public void hashCode_equalObjects_sameHashCode() {
+        // Create two sets of tags
+        Set<Tag> tags1 = new HashSet<>();
+        tags1.add(new Tag("friend"));
+        Set<Tag> tags2 = new HashSet<>();
+        tags2.add(new Tag("friend"));
+
+        // Create two Person objects with the same attributes
+        Person person1 = new Person(new Name("Alice"), new Phone("12345678"),
+                new Email("alice@example.com"), new Address("1 Main Street"),
+                new Remark("Hello"), tags1);
+        Person person2 = new Person(new Name("Alice"), new Phone("12345678"),
+                new Email("alice@example.com"), new Address("1 Main Street"),
+                new Remark("Hello"), tags2);
+
+        assertEquals(person1.hashCode(), person2.hashCode());
+    }
+
+    @Test
+    public void hashCode_unequalObjects_differentHashCode() {
+        // Create two sets of tags
+        Set<Tag> tags1 = new HashSet<>();
+        tags1.add(new Tag("friend"));
+        Set<Tag> tags2 = new HashSet<>();
+        tags2.add(new Tag("colleague"));
+
+        // Create two Person objects with different attributes
+        Person person1 = new Person(new Name("Alice"), new Phone("12345678"),
+                new Email("alice@example.com"), new Address("1 Main Street"),
+                new Remark("Hello"), tags1);
+        Person person2 = new Person(new Name("Bob"), new Phone("87654321"),
+                new Email("bob@example.com"), new Address("2 Second Avenue"),
+                new Remark("Hi"), tags2);
+
+        assertNotEquals(person1.hashCode(), person2.hashCode());
     }
 }
