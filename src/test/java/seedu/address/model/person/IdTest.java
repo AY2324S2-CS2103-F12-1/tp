@@ -2,6 +2,7 @@ package seedu.address.model.person;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static seedu.address.testutil.Assert.assertThrows;
 
@@ -48,10 +49,10 @@ public class IdTest {
         Id id = Id.generateId(1);
 
         // same values -> returns true
-        assertTrue(id.equals(Id.generateId(1)));
+        assertEquals(id, Id.generateId(1));
 
         // same object -> returns true
-        assertTrue(id.equals(id));
+        assertEquals(id, id);
 
         // null -> returns false
         assertFalse(id.equals(null));
@@ -60,6 +61,6 @@ public class IdTest {
         assertFalse(id.equals("hi"));
 
         // different values -> returns false
-        assertFalse(id.equals(Id.generateId(2)));
+        assertNotEquals(id, Id.generateId(2));
     }
 }

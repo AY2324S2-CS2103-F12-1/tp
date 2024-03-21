@@ -1,7 +1,8 @@
 package seedu.address.model.person;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static seedu.address.testutil.Assert.assertThrows;
 
 import org.junit.jupiter.api.Test;
@@ -17,18 +18,18 @@ public class RemarkTest {
         Remark remark = new Remark("Valid Remark");
 
         // same values -> returns true
-        assertTrue(remark.equals(new Remark("Valid Remark")));
+        assertEquals(remark, new Remark("Valid Remark"));
 
         // same object -> returns true
-        assertTrue(remark.equals(remark));
+        assertEquals(remark, remark);
 
         // null -> returns false
-        assertFalse(remark.equals(null));
+        assertNotEquals(null, remark);
 
         // different types -> returns false
         assertFalse(remark.equals(0.5f));
 
         // different values -> returns false
-        assertFalse(remark.equals(new Remark("Other Valid Remark")));
+        assertNotEquals(remark, new Remark("Other Valid Remark"));
     }
 }
