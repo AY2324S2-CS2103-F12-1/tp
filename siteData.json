@@ -41,6 +41,8 @@
       "title": "Developer Guide",
       "headings": {
         "netconnect-developer-guide": "NetConnect Developer Guide",
+        "acknowledgements": "Acknowledgements",
+        "list-here-sources-of-all-reused-adapted-ideas-code-documentation-and-third-party-libraries-include-links-to-the-original-source-as-well": "{ list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the original source as well }",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
         "architecture": "Architecture",
@@ -51,6 +53,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "delete-feature": "Delete feature",
+        "unique-id-of-person": "Unique Id of Person",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
