@@ -53,6 +53,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "export-feature": "Export Feature",
+        "person-roles-employee-client-and-supplier": "Person Roles (Employee, Client, and Supplier)",
         "delete-feature": "Delete feature",
         "unique-id-of-person": "Unique Id of Person",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
