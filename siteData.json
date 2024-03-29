@@ -57,6 +57,7 @@
         "save-state-feature": "Save state feature",
         "delete-feature": "Delete feature",
         "unique-id-of-person": "Unique Id of Person",
+        "findnum-feature": "Findnum feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
