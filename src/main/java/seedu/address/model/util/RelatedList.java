@@ -121,10 +121,8 @@ public class RelatedList {
         // Iterate through all IdTuple objects in the RelatedList
         for (int i = 0; i < relatedList.size(); i++) {
             assert i >= 0 && i < relatedList.size();
-            System.out.println(i);
 
             IdTuple idTuple = relatedList.get(i);
-            System.out.println(idTuple);
 
             // Check if the provided ID matches either the first or the second ID in the tuple
             if (idTuple.getFirstPersonId().equals(id)) {
@@ -133,7 +131,6 @@ public class RelatedList {
                 relatedIds.add(idTuple.getFirstPersonId().value);
             }
         }
-        System.out.println(relatedIds);
         return relatedIds;
     }
 

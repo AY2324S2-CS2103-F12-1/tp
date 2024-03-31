@@ -24,6 +24,7 @@ public class ShowRelatedCommand extends Command {
             + ": Finds all persons related to person with the specified id.\n"
             + "Parameters: i/ID\n"
             + "Example: " + COMMAND_WORD + " " + PREFIX_ID + "/1";
+    public static final String MESSAGE_RELATED_TO = "Showing all persons related to:\n%1$s";
 
     private final Id id;
 
@@ -41,8 +42,11 @@ public class ShowRelatedCommand extends Command {
 
         model.clearFilter();
         model.stackFilters(predicate);
-        return new CommandResult(
-                String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, model.getFilteredPersonList().size()));
+
+        String output = String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, model.getFilteredPersonList().size())
+                + " " + String.format(MESSAGE_RELATED_TO, Messages.format(model.getPersonById(id)));
+
+        return new CommandResult(output);
     }
 
     @Override
