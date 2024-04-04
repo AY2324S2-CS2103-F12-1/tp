@@ -145,9 +145,21 @@
     },
     {
       "src": "index.md",
-      "title": "",
+      "title": "NetConnect: Your Ultimate Contact Management Solution",
       "headings": {
-        "netconnect": "NetConnect"
+        "welcome-to-netconnect": "Welcome to NetConnect",
+        "why-netconnect": "Why NetConnect?",
+        "getting-started": "Getting Started",
+        "features": "Features",
+        "core-functionality": "Core Functionality",
+        "advanced-search": "Advanced Search",
+        "data-management": "Data Management",
+        "additional-features": "Additional Features",
+        "data-handling": "Data Handling",
+        "support": "Support",
+        "for-developers": "For Developers",
+        "acknowledgements": "Acknowledgements",
+        "gallery": "Gallery"
       },
       "headingKeywords": {}
     },
