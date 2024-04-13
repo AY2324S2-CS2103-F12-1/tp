@@ -112,7 +112,6 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
         "netconnect-user-guide": "NetConnect User Guide",
         "table-of-contents": "Table of Contents",
