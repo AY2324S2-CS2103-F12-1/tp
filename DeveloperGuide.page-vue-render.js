@@ -170,7 +170,7 @@ with(this){return _c('h4',{attrs:{"id":"design-considerations"}},[_v("Design Con
 with(this){return _c('p',[_c('strong',[_v("Aspect: Handling of file paths in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("export")]),_v(" command:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Alternative 1 (Current Choice):")]),_v(" Always save the CSV file to a fixed, pre-defined location without user input.\n"),_c('ul',[_c('li',[_v("Pros:\n1. Simplifies the command's implementation by removing the need to parse and validate user-provided file paths.\n*Cons:\n1. Reduces user flexibility in determining where the CSV file should be saved.")])])]),_v(" "),_c('li',[_c('strong',[_v("Alternative 2:")]),_v(" Allow users to specify a file path, defaulting to a pre-defined location if not specified.\n"),_c('ul',[_c('li',[_v("Pros:\n1. Provides flexibility for users to save the CSV file wherever they prefer.\n"),_c('ul',[_c('li',[_v("Cons:\n"),_c('ol',[_c('li',[_v("Additional error handling is required to manage invalid or inaccessible file paths.")])])])])])])])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Alternative 1 (Current Choice):")]),_v(" Always save the CSV file to a fixed, pre-defined location without user input.\n"),_c('ul',[_c('li',[_v("Pros:\n1. Simplifies the command's implementation by removing the need to parse and validate user-provided file paths.")]),_v(" "),_c('li',[_v("Cons:\n1. Reduces user flexibility in determining where the CSV file should be saved.")])])]),_v(" "),_c('li',[_c('strong',[_v("Alternative 2:")]),_v(" Allow users to specify a file path, defaulting to a pre-defined location if not specified.\n"),_c('ul',[_c('li',[_v("Pros:\n1. Provides flexibility for users to save the CSV file wherever they prefer.")]),_v(" "),_c('li',[_v("Cons:\n1. Additional error handling is required to manage invalid or inaccessible file paths.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"person-roles-employee-client-and-supplier"}},[_v("Person Roles (Employee, Client, and Supplier)"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#person-roles-employee-client-and-supplier","onclick":"event.stopPropagation()"}})])}
@@ -722,6 +722,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 22:52:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 23:06:22 GMT+8]")])])])}
 }];
   
