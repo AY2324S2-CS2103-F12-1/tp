@@ -51,7 +51,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "export-feature": "Export Feature",
-        "person-roles-employee-client-and-supplier": "Person Roles (Employee, Client, and Supplier)",
+        "person-roles-feature": "Person Roles Feature",
         "save-state-feature": "Save state feature",
         "relate-feature": "Relate feature",
         "showrelated-feature": "ShowRelated feature",
